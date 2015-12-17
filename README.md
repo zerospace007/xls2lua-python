@@ -5,7 +5,7 @@ use [python xlrd](https://pypi.python.org/pypi/xlrd)
 
 (使用python xlrd模块)
 
-(这个脚本是从 https://github.com/zfengzhen/xls2lua，https://github.com/luzexi/xls2lua 继承过来的，我改进了很多东西，使得更适合游戏项目使用。)
+(这个脚本是从 https://github.com/zfengzhen/xls2lua 和 https://github.com/luzexi/xls2lua 继承过来的，我改进了很多东西，使得更适合游戏项目使用。)
 
 (如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)
 
