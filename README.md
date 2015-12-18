@@ -1,5 +1,5 @@
 xls2lua 基于Python3.X使用
-(将xls数据文件转化为lua脚本，作为游戏资源使用)
+(将据xls、xlsx数据文件转化为lua脚本，作为游戏资源使用)
 
 use [python xlrd](https://pypi.python.org/pypi/xlrd)
 
@@ -7,10 +7,10 @@ use [python xlrd](https://pypi.python.org/pypi/xlrd)
 
 (这个脚本是从 https://github.com/zfengzhen/xls2lua 和 https://github.com/luzexi/xls2lua 继承过来的，我改进了很多东西，使得更适合游戏项目使用。)
 
-(如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)
+(如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls、xlsx文件转化为lua文件，这样你就可以更好的工作了。)
 
 ### Excute Example (举例执行命令)
-python ./xls2lua.py Building.xlsx ./Config/
+python ./xls2lua.py
 
 ### NOTICE:(注意点)
 > (sheet名以"OUT_"开头的才会被识别转换，否则将被忽略) <br />
