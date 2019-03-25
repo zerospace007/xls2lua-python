@@ -2,7 +2,7 @@ echo off
 :Start
 
 pip install
-pip install --upgrade
+python -m pip install --upgrade pip
 
 echo ===================================
 echo Pip Install And Upgrade Success

@@ -14,6 +14,12 @@ echo ===================================
 echo xls2lua Execute Success
 echo ===================================
 
+python ImportConfig.py
+
+echo ===================================
+echo ImportConfig Execute Success
+echo ===================================
+
 :Exit
 
 pause

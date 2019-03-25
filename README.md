@@ -17,9 +17,9 @@ python ./xls2lua.py
 > (第1行无用，是关键字名的介绍描述) <br />
 > (第2行必须是关键字名) <br />
 > (第3行必须为类型) <br />
-> (类型有：int,float,string,boolean,intArr,floatArr,stringArr,booleanArr这几种) <br />
-> (intArr表示int数组,floatArr表示float数组,stringArr表示string数组,booleanArr表示bool数组) <br />
-> (第1列必须为int类型的唯一关键字) <br />
+> (类型有：none,int,float,string,boolean,intArr,floatArr,stringArr,booleanArr这几种) <br />
+> (none表示该列不再导出,intArr表示int数组,floatArr表示float数组,stringArr表示string数组,booleanArr表示bool数组) <br />
+> (第1列为int或者string类型的唯一关键字) <br />
 > (string类型中"和'会自动用\"和\'替代)
 > (空列将会被默认值代替，例如:0,"",false,{})
 
